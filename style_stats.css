@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Nodesto Caps Condensed";
+    src:
+        url("fonts/Nodesto_Caps_Condensed.otf") format("opentype");
+}
+
+body {
+    background-color: #252525;
+    color: #e7e7e7;
+}
+
+img {
+    width: 250px;
+}
+
+#propertyStats {
+    display: flex;
+    gap: 5px;
+}

@@ -22,3 +22,6 @@ function filtros() {
     }
 }
 
+document.getElementById("monster-box").addEventListener("click", function() {
+    window.location.href = "./stats_block.html";
+});
