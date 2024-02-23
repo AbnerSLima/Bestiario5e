@@ -8,38 +8,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body>
-        <header>
-            <h1 style="font-family: 'Nodesto Caps Condensed';">Bestiário D&D 5e</h1>
-            <div id="filtragem">
-                <div id="campoPesquisa">
-                    <input id="buscarTexto" type="text">
-                    <button id="buttonBuscar" class="material-symbols-outlined" onclick="buscar()">search</button>
-                </div>
-                <div id="campoFiltro">
-                    <button id="buttonFiltro" class="material-symbols-outlined" onclick="filtros()">manage_search</button>
-                </div>
-            </div>
-            <section class="section">
-                <div id="filtroCabecalho">
-                    <p>Filtro:</p>
-                    <buttonid="buttonFiltro" class="material-symbols-outlined" onclick="cleanFilters()">mop</button>
-                </div>
-                <div id="filtroItens">
-                    <ul id="selecionar">
-                        <li><input type="radio">ND</li>
-                        <li><input type="radio">Tipo</li>
-                        <li><input type="radio" >Tamanho</li>
-                    </ul>
-                    <ul id="ordenar">
-                        <p>Ordenar por:</p>
-                        <li><input type="radio" name="ordenar">Nome</li>
-                        <li><input type="radio" name="ordenar">Tipo</li>
-                        <li><input type="radio" name="ordenar">Tamanho</li>
-                    </ul>
-                </div>
-            </section>
-        </header>
         <main>
+            <header>
+                <h1 style="font-family: 'Nodesto Caps Condensed';">Bestiário D&D 5e</h1>
+                <div id="filtragem">
+                    <div id="campoPesquisa">
+                        <input id="buscarTexto" type="text">
+                        <button id="buttonBuscar" class="material-symbols-outlined" onclick="buscar()">search</button>
+                    </div>
+                    <div id="campoFiltro">
+                        <button id="buttonFiltro" class="material-symbols-outlined" onclick="filtros()">manage_search</button>
+                    </div>
+                </div>
+                <section class="section">
+                    <div id="filtroCabecalho">
+                        <p>Filtro:</p>
+                        <buttonid="buttonFiltro" class="material-symbols-outlined" onclick="cleanFilters()">mop</button>
+                    </div>
+                    <div id="filtroItens">
+                        <ul id="selecionar">
+                            <li><input type="radio">ND</li>
+                            <li><input type="radio">Tipo</li>
+                            <li><input type="radio" >Tamanho</li>
+                        </ul>
+                        <ul id="ordenar">
+                            <p>Ordenar por:</p>
+                            <li><input type="radio" name="ordenar">Nome</li>
+                            <li><input type="radio" name="ordenar">Tipo</li>
+                            <li><input type="radio" name="ordenar">Tamanho</li>
+                        </ul>
+                    </div>
+                </section>
+            </header>
+            <div>
                 <div id="monsters-list">
                     <div id="monster-box">
                         <div>
@@ -50,7 +51,7 @@
                         </div>
                     </div> 
                 </div>
-            
+            </div>
         </main>
         <script src="script.js"></script>
     </body>
