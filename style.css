@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #ccc;
+}
+
+@font-face {
+    font-family: "Nodesto Caps Condensed";
+    src:
+        url("fonts/Nodesto_Caps_Condensed.otf") format("opentype");
+}
+
+#filtragem {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;  
+}
+
+#campoPesquisa {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#buscarTexto {
+    border: 0;
+    border-radius: 10px;
+    width: 200px;
+}
+
+#buttonBuscar {
+    border: 0;
+    background-color: transparent;
+    color: #ccc;
+}
+
+#buttonFiltro {
+    border: 0;
+    background-color: transparent;
+    color: #ccc;
+}
+
+.section {
+    margin: 10px 10px 5px;
+    padding: 1px 10px;
+    border-radius: 5px;
+    color: #ccc;
+    background-color: rgb(31, 31, 31);
+}
+
+#filtroCabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+#filtroItens {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#selecionar {
+    display: grid;
+    gap: 18px;
+}
+
+#ordenar {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#monsters-list {
+    margin: 10px 10px 0px 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #ccc;
+    background-color: rgb(19, 19, 19);
+}
